@@ -167,7 +167,7 @@ class Mangler(object):
     pass
 
   def mangle__imo_num(self, res, msg):
-    res['imo'] = str(msg['imo_num'])
+    res['imo'] = msg['imo_num']
 
   def mangle__type_and_cargo(self, res, msg):
     res['shiptype'] = msg['type_and_cargo']
