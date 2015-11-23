@@ -15,3 +15,5 @@ dist
 .idea/
 venv/
 test/data/*.gpsdecode.json
+.cache
+*.so
